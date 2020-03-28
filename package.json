@@ -1,0 +1,25 @@
+{
+  "name": "saraheprehndds.com",
+  "version": "2.0.0",
+  "description": "Sarah E. Prehn, DDS' professional web profile",
+  "main": "www/index.html",
+  "scripts": {
+    "build": "npx eleventy --config=config/eleventyu.config.js",
+    "build-production": "ELEVENTY_PRODUCTION=true eleventy --config=config/eleventy.config.js",
+    "serve": "npx eleventy --config=config/eleventy.config.js --serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdromano2/saraheprehndds.com.git"
+  },
+  "author": "Joseph D. Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdromano2/saraheprehndds.com/issues"
+  },
+  "homepage": "https://github.com/jdromano2/saraheprehndds.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "clean-css": "^4.2.3"
+  }
+}
