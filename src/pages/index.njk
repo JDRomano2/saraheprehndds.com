@@ -1,0 +1,34 @@
+---
+title: Home
+permalink: /index.html
+---
+
+{% extends 'layouts/page.njk' %}
+
+{% block content %}
+  <div class="page-content">
+    <section>
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <h2>Sarah E. Prehn, DDS</h2>
+          <h5><i>Email:</i> <a href="mailto:saraheprehndds@gmail.com">saraheprehndds@gmail.com</a></h5>
+          <h3>Board-certified orthodontist</h3>
+          <h4 class="mb-4">Practicing in the greater Philadelphia area</h4>
+          <button onclick="window.location.href = '{{ "./cv.html" | url }}'" class="link-button mb-3">View Curriculum Vitae</button>
+          <p>
+            Dr. Prehn is a board-certified orthodontist working in private
+            practice in the greater Philadelphia area.
+          </p>
+          <p>
+            In her free time, Dr. Prehn enjoys running, hiking, and listening
+            to great music. She lives in Wynnewood, PA with her husband.
+          </p>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <img src="./assets/img/Prehn-Headshot.png" alt="Dr. Prehn headshot" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+  </div>
+{% endblock %}

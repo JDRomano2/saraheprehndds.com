@@ -1,0 +1,23 @@
+---
+title: CV
+permalink: /cv.html
+---
+
+{% extends 'layouts/page.njk' %}
+
+{% block content %}
+  <div class="page-content">
+    <section>
+      <h2>Curriculum Vitae</h2>
+      <button onclick="window.location.href = '{{ "./cv.html" | url }}'" class="link-button mb-3">Return to Home Page</button>
+      <hr/>
+      <object data="./assets/pdf/dr_prehn_cv.pdf" type="application/pdf" width="100%" id="cv-box">
+        <p>
+          This browser does not support PDFs. Please download the PDF to view it: "
+          <a href="./assets/pdf/dr_prehn_cv.pdf">Download PDF</a>
+        </p>
+      </object>
+      <hr/>
+    </section>
+  </div>
+{% endblock %}

@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
         templateFormats: ["html", "njk", "md", "js"],
         dir: {
             input: 'src',
-            includes: '_includes',
+            includes: 'assets',
             data: '_data',
             output: 'www',
         },

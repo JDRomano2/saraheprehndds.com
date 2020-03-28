@@ -1,0 +1,56 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #4c4c4c;
+  color: #ffffff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Vollkorn', serif;
+}
+
+a {
+  color: lightblue;
+}
+
+.wrap {
+  min-height: 85%;
+}
+
+.nav-link {
+  font-size: 16pt;
+}
+
+.link-button {
+  color: #fff;
+  background-color: #17a2b8;
+  border-radius: #17a2b8;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.link-button:hover {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+#main-container {
+  margin-top: 70px;
+}
+
+#cv-box {
+  min-height: 800px;
+  border: solid gray;
+  margin: 0;
+  border-radius: 2px;
+}
+
+#header-sizing {
+  margin-top: 40px;
+}
