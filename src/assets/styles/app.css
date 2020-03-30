@@ -47,9 +47,9 @@ a {
   height: 50px;
 }
 
-#main-container {
-  margin-top: 70px;
-}
+/* #main-container {
+  margin-top: 0;
+} */
 
 #cv-box {
   min-height: 800px;
@@ -58,9 +58,9 @@ a {
   border-radius: 2px;
 }
 
-#header-sizing {
+/* #header-sizing {
   margin-top: 40px;
-}
+} */
 
 #footer-text-container {
   width: 100%;
