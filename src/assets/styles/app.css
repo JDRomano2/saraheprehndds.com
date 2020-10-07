@@ -51,6 +51,11 @@ a {
   margin-top: 0;
 } */
 
+#abo-seal {
+  width: 30%;
+  height: auto;
+}
+
 #cv-box {
   min-height: 800px;
   border: solid gray;
@@ -68,5 +73,6 @@ a {
 
 #footer-text {
   font-family: 'Vollkorn', serif;
+  font-size: smaller;
   color: #aaaaaa;
 }
