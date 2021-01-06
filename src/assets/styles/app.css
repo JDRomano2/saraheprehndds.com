@@ -27,17 +27,22 @@ a {
 
 .link-button {
   color: #fff;
-  background-color: #9a7197;
-  border-color: #9a7197;
+  /* background-color: #9a7197; */
+  /* border-color: #9a7197; */
+  background-color: #8DA5B5;
+  border-color: #8DA5B5;
   border-radius: 4px;
   padding-top: 4px;
   padding-bottom: 4px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .link-button:hover {
-  color: #fff;
-  background-color: #886176;
-  border-color: #9a7197;
+  /* color: #fff; */
+  color: #4C4C4C;
+  /* background-color: #886176; */
+  /* border-color: #9a7197; */
+  background-color: #afd2e9;
+  border-color: #afd2e9;
 }
 
 .footer {
